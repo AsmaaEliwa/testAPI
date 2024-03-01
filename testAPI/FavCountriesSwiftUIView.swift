@@ -9,11 +9,14 @@ import SwiftUI
 
 struct FavCountriesSwiftUIView: View {
     @ObservedObject var viewModel = ViewModel.shared
+    var operationTest = MyOperation()
     var body: some View {
         VStack{
             ForEach(viewModel.favCountries , id:\.self){fav in
                 Text("\(fav?.flag ?? ""): \(fav?.countryName ?? "")")
             }
+        }.onAppear(){
+            handleOperation()
         }
     }
 }

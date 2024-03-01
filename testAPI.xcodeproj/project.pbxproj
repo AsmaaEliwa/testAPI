@@ -23,6 +23,7 @@
 		7FBEBDB42B91E07E005B827C /* Fav+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB22B91E07E005B827C /* Fav+CoreDataClass.swift */; };
 		7FBEBDB52B91E07E005B827C /* Fav+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB32B91E07E005B827C /* Fav+CoreDataProperties.swift */; };
 		7FBEBDB72B91E648005B827C /* FavCountriesSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB62B91E648005B827C /* FavCountriesSwiftUIView.swift */; };
+		7FBEBDB92B91F111005B827C /* OperationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB82B91F111005B827C /* OperationTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		7FBEBDB22B91E07E005B827C /* Fav+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7FBEBDB32B91E07E005B827C /* Fav+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7FBEBDB62B91E648005B827C /* FavCountriesSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavCountriesSwiftUIView.swift; sourceTree = "<group>"; };
+		7FBEBDB82B91F111005B827C /* OperationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				7FBEBDAE2B91DA8D005B827C /* DataManger.swift */,
 				7FBEBDB02B91DDF3005B827C /* ViewModel.swift */,
 				7FBEBDB62B91E648005B827C /* FavCountriesSwiftUIView.swift */,
+				7FBEBDB82B91F111005B827C /* OperationTest.swift */,
 			);
 			path = testAPI;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				7FBEBDB42B91E07E005B827C /* Fav+CoreDataClass.swift in Sources */,
 				7FBEBDAF2B91DA8D005B827C /* DataManger.swift in Sources */,
 				7FBEBDB52B91E07E005B827C /* Fav+CoreDataProperties.swift in Sources */,
+				7FBEBDB92B91F111005B827C /* OperationTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
