@@ -24,6 +24,7 @@
 		7FBEBDB52B91E07E005B827C /* Fav+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB32B91E07E005B827C /* Fav+CoreDataProperties.swift */; };
 		7FBEBDB72B91E648005B827C /* FavCountriesSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB62B91E648005B827C /* FavCountriesSwiftUIView.swift */; };
 		7FBEBDB92B91F111005B827C /* OperationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB82B91F111005B827C /* OperationTest.swift */; };
+		7FBEBDBB2B91FBCE005B827C /* FacadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDBA2B91FBCE005B827C /* FacadTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		7FBEBDB32B91E07E005B827C /* Fav+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7FBEBDB62B91E648005B827C /* FavCountriesSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavCountriesSwiftUIView.swift; sourceTree = "<group>"; };
 		7FBEBDB82B91F111005B827C /* OperationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTest.swift; sourceTree = "<group>"; };
+		7FBEBDBA2B91FBCE005B827C /* FacadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				7FBEBDB02B91DDF3005B827C /* ViewModel.swift */,
 				7FBEBDB62B91E648005B827C /* FavCountriesSwiftUIView.swift */,
 				7FBEBDB82B91F111005B827C /* OperationTest.swift */,
+				7FBEBDBA2B91FBCE005B827C /* FacadTest.swift */,
 			);
 			path = testAPI;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				7FBEBDB12B91DDF3005B827C /* ViewModel.swift in Sources */,
 				7FBEBDAB2B91D0B3005B827C /* CountryModel.swift in Sources */,
 				7FBEBDA92B91CFB9005B827C /* APIManger.swift in Sources */,
+				7FBEBDBB2B91FBCE005B827C /* FacadTest.swift in Sources */,
 				7FBEBDAD2B91D1A9005B827C /* SwiftUIView.swift in Sources */,
 				7FBEBDA72B91CDAC005B827C /* NetworkManger.swift in Sources */,
 				7FBEBDB72B91E648005B827C /* FavCountriesSwiftUIView.swift in Sources */,
