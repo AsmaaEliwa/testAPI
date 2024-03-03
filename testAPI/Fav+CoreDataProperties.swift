@@ -2,7 +2,7 @@
 //  Fav+CoreDataProperties.swift
 //  testAPI
 //
-//  Created by asmaa gamal  on 01/03/2024.
+//  Created by asmaa gamal  on 03/03/2024.
 //
 //
 
@@ -16,9 +16,8 @@ extension Fav {
         return NSFetchRequest<Fav>(entityName: "Fav")
     }
 
-    @NSManaged public var timestamp: Date?
     @NSManaged public var countryName: String?
-    @NSManaged public var flag: String?
+    @NSManaged public var countryFlag: String?
 
 }
 

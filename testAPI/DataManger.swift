@@ -31,7 +31,7 @@ class DataManger{
         if let entity = NSEntityDescription.entity(forEntityName: "Fav", in: persistentContainer.viewContext){
             let favCountry = NSManagedObject(entity: entity, insertInto: persistentContainer.viewContext)
             favCountry.setValue(country.name.countryName, forKey: "countryName")
-            favCountry.setValue(country.flag, forKey: "flag")
+            favCountry.setValue(country.flag, forKey: "countryFlag")
             
             do {
                 try persistentContainer.viewContext.save()

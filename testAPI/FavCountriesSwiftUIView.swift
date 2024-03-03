@@ -13,7 +13,7 @@ struct FavCountriesSwiftUIView: View {
     var body: some View {
         VStack{
             ForEach(viewModel.favCountries , id:\.self){fav in
-                Text("\(fav?.flag ?? ""): \(fav?.countryName ?? "")")
+                Text("\(fav?.countryFlag ?? ""): \(fav?.countryName ?? "")")
             }
         }.onAppear(){
             handleOperation()

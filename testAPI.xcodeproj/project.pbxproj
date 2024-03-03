@@ -20,11 +20,13 @@
 		7FBEBDAD2B91D1A9005B827C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDAC2B91D1A9005B827C /* SwiftUIView.swift */; };
 		7FBEBDAF2B91DA8D005B827C /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDAE2B91DA8D005B827C /* DataManger.swift */; };
 		7FBEBDB12B91DDF3005B827C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB02B91DDF3005B827C /* ViewModel.swift */; };
-		7FBEBDB42B91E07E005B827C /* Fav+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB22B91E07E005B827C /* Fav+CoreDataClass.swift */; };
-		7FBEBDB52B91E07E005B827C /* Fav+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB32B91E07E005B827C /* Fav+CoreDataProperties.swift */; };
 		7FBEBDB72B91E648005B827C /* FavCountriesSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB62B91E648005B827C /* FavCountriesSwiftUIView.swift */; };
 		7FBEBDB92B91F111005B827C /* OperationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDB82B91F111005B827C /* OperationTest.swift */; };
 		7FBEBDBB2B91FBCE005B827C /* FacadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDBA2B91FBCE005B827C /* FacadTest.swift */; };
+		7FBEBDBE2B9487D0005B827C /* FavMappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDBD2B9487D0005B827C /* FavMappingModel.xcmappingmodel */; };
+		7FBEBDC02B948821005B827C /* FavMagirationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDBF2B948821005B827C /* FavMagirationPolicy.swift */; };
+		7FBEBDC32B948B2A005B827C /* Fav+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDC12B948B2A005B827C /* Fav+CoreDataClass.swift */; };
+		7FBEBDC42B948B2A005B827C /* Fav+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDC22B948B2A005B827C /* Fav+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +63,14 @@
 		7FBEBDAC2B91D1A9005B827C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		7FBEBDAE2B91DA8D005B827C /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
 		7FBEBDB02B91DDF3005B827C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		7FBEBDB22B91E07E005B827C /* Fav+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataClass.swift"; sourceTree = "<group>"; };
-		7FBEBDB32B91E07E005B827C /* Fav+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7FBEBDB62B91E648005B827C /* FavCountriesSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavCountriesSwiftUIView.swift; sourceTree = "<group>"; };
 		7FBEBDB82B91F111005B827C /* OperationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTest.swift; sourceTree = "<group>"; };
 		7FBEBDBA2B91FBCE005B827C /* FacadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadTest.swift; sourceTree = "<group>"; };
+		7FBEBDBC2B947BDC005B827C /* testAPI 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "testAPI 2.xcdatamodel"; sourceTree = "<group>"; };
+		7FBEBDBD2B9487D0005B827C /* FavMappingModel.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = FavMappingModel.xcmappingmodel; sourceTree = "<group>"; };
+		7FBEBDBF2B948821005B827C /* FavMagirationPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavMagirationPolicy.swift; sourceTree = "<group>"; };
+		7FBEBDC12B948B2A005B827C /* Fav+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7FBEBDC22B948B2A005B827C /* Fav+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +121,8 @@
 		7FBEBD762B91CC39005B827C /* testAPI */ = {
 			isa = PBXGroup;
 			children = (
-				7FBEBDB22B91E07E005B827C /* Fav+CoreDataClass.swift */,
-				7FBEBDB32B91E07E005B827C /* Fav+CoreDataProperties.swift */,
+				7FBEBDC12B948B2A005B827C /* Fav+CoreDataClass.swift */,
+				7FBEBDC22B948B2A005B827C /* Fav+CoreDataProperties.swift */,
 				7FBEBD772B91CC39005B827C /* testAPIApp.swift */,
 				7FBEBD7B2B91CC3E005B827C /* Assets.xcassets */,
 				7FBEBD822B91CC3E005B827C /* testAPI.xcdatamodeld */,
@@ -131,6 +136,8 @@
 				7FBEBDB62B91E648005B827C /* FavCountriesSwiftUIView.swift */,
 				7FBEBDB82B91F111005B827C /* OperationTest.swift */,
 				7FBEBDBA2B91FBCE005B827C /* FacadTest.swift */,
+				7FBEBDBF2B948821005B827C /* FavMagirationPolicy.swift */,
+				7FBEBDBD2B9487D0005B827C /* FavMappingModel.xcmappingmodel */,
 			);
 			path = testAPI;
 			sourceTree = "<group>";
@@ -298,10 +305,12 @@
 				7FBEBDA72B91CDAC005B827C /* NetworkManger.swift in Sources */,
 				7FBEBDB72B91E648005B827C /* FavCountriesSwiftUIView.swift in Sources */,
 				7FBEBD842B91CC3E005B827C /* testAPI.xcdatamodeld in Sources */,
+				7FBEBDC02B948821005B827C /* FavMagirationPolicy.swift in Sources */,
+				7FBEBDC32B948B2A005B827C /* Fav+CoreDataClass.swift in Sources */,
 				7FBEBD782B91CC39005B827C /* testAPIApp.swift in Sources */,
-				7FBEBDB42B91E07E005B827C /* Fav+CoreDataClass.swift in Sources */,
+				7FBEBDC42B948B2A005B827C /* Fav+CoreDataProperties.swift in Sources */,
+				7FBEBDBE2B9487D0005B827C /* FavMappingModel.xcmappingmodel in Sources */,
 				7FBEBDAF2B91DA8D005B827C /* DataManger.swift in Sources */,
-				7FBEBDB52B91E07E005B827C /* Fav+CoreDataProperties.swift in Sources */,
 				7FBEBDB92B91F111005B827C /* OperationTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -631,9 +640,10 @@
 		7FBEBD822B91CC3E005B827C /* testAPI.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				7FBEBDBC2B947BDC005B827C /* testAPI 2.xcdatamodel */,
 				7FBEBD832B91CC3E005B827C /* testAPI.xcdatamodel */,
 			);
-			currentVersion = 7FBEBD832B91CC3E005B827C /* testAPI.xcdatamodel */;
+			currentVersion = 7FBEBDBC2B947BDC005B827C /* testAPI 2.xcdatamodel */;
 			path = testAPI.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
