@@ -42,8 +42,10 @@ func handleOperation(){
 //        operation1.cancel()
 //    }
 //    operationQueue.waitUntilAllOperationsAreFinished()
-    RunLoop.current.run()
+    RunLoop.current.run() //
     print("all operations done")
+    let serialQueue = OperationQueue()
+    serialQueue.maxConcurrentOperationCount = 1 // converting it to be serial queue
 }
     
     

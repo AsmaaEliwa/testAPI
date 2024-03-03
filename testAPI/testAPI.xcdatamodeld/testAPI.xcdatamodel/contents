@@ -3,6 +3,5 @@
     <entity name="Fav" representedClassName=".Fav" syncable="YES">
         <attribute name="countryName" optional="YES" attributeType="String"/>
         <attribute name="flag" optional="YES" attributeType="String"/>
-        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
 </model>

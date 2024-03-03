@@ -254,6 +254,21 @@
                   endingLineNumber = "38"
                   offsetFromSymbolStart = "567">
                </Location>
+               <Location
+                  uuid = "6B828593-FA18-4219-81EA-4253C2B51B7E - 4a750757dc7fe90d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testAPI.handleOperation() -&gt; ()"
+                  moduleName = "testAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/testAPI/testAPI/OperationTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "589">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

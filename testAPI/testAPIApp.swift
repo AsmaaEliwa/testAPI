@@ -13,7 +13,7 @@ struct testAPIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            FavCountriesSwiftUIView()
+            SwiftUIView()
                 .environment(\.managedObjectContext, persistenceController.viewContext)
         }
     }
