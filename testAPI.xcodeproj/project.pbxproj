@@ -27,6 +27,7 @@
 		7FBEBDC02B948821005B827C /* FavMagirationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDBF2B948821005B827C /* FavMagirationPolicy.swift */; };
 		7FBEBDC32B948B2A005B827C /* Fav+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDC12B948B2A005B827C /* Fav+CoreDataClass.swift */; };
 		7FBEBDC42B948B2A005B827C /* Fav+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDC22B948B2A005B827C /* Fav+CoreDataProperties.swift */; };
+		7FBEBE0F2B9720DF005B827C /* dispatchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBE0E2B9720DF005B827C /* dispatchTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		7FBEBDBF2B948821005B827C /* FavMagirationPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavMagirationPolicy.swift; sourceTree = "<group>"; };
 		7FBEBDC12B948B2A005B827C /* Fav+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7FBEBDC22B948B2A005B827C /* Fav+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7FBEBE0E2B9720DF005B827C /* dispatchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dispatchTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				7FBEBDBA2B91FBCE005B827C /* FacadTest.swift */,
 				7FBEBDBF2B948821005B827C /* FavMagirationPolicy.swift */,
 				7FBEBDBD2B9487D0005B827C /* FavMappingModel.xcmappingmodel */,
+				7FBEBE0E2B9720DF005B827C /* dispatchTest.swift */,
 			);
 			path = testAPI;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				7FBEBD782B91CC39005B827C /* testAPIApp.swift in Sources */,
 				7FBEBDC42B948B2A005B827C /* Fav+CoreDataProperties.swift in Sources */,
 				7FBEBDBE2B9487D0005B827C /* FavMappingModel.xcmappingmodel in Sources */,
+				7FBEBE0F2B9720DF005B827C /* dispatchTest.swift in Sources */,
 				7FBEBDAF2B91DA8D005B827C /* DataManger.swift in Sources */,
 				7FBEBDB92B91F111005B827C /* OperationTest.swift in Sources */,
 			);
