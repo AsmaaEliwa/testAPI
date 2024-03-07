@@ -111,7 +111,7 @@ protocol product3{
 }
 class ProductA1:product1{
     func A() {
-        <#code#>
+        
     }
     
   

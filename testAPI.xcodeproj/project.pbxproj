@@ -29,6 +29,7 @@
 		7FBEBDC42B948B2A005B827C /* Fav+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBDC22B948B2A005B827C /* Fav+CoreDataProperties.swift */; };
 		7FBEBE0F2B9720DF005B827C /* dispatchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBE0E2B9720DF005B827C /* dispatchTest.swift */; };
 		7FBEBE112B99DED0005B827C /* SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBE102B99DED0005B827C /* SOLID.swift */; };
+		7FBEBE132B99E684005B827C /* testSring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBE122B99E684005B827C /* testSring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		7FBEBDC22B948B2A005B827C /* Fav+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fav+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7FBEBE0E2B9720DF005B827C /* dispatchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dispatchTest.swift; sourceTree = "<group>"; };
 		7FBEBE102B99DED0005B827C /* SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLID.swift; sourceTree = "<group>"; };
+		7FBEBE122B99E684005B827C /* testSring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				7FBEBDBD2B9487D0005B827C /* FavMappingModel.xcmappingmodel */,
 				7FBEBE0E2B9720DF005B827C /* dispatchTest.swift */,
 				7FBEBE102B99DED0005B827C /* SOLID.swift */,
+				7FBEBE122B99E684005B827C /* testSring.swift */,
 			);
 			path = testAPI;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				7FBEBE0F2B9720DF005B827C /* dispatchTest.swift in Sources */,
 				7FBEBDAF2B91DA8D005B827C /* DataManger.swift in Sources */,
 				7FBEBDB92B91F111005B827C /* OperationTest.swift in Sources */,
+				7FBEBE132B99E684005B827C /* testSring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
