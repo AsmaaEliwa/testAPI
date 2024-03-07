@@ -88,7 +88,10 @@ class AtomicInt {
         }
     }
     let operation = MyOperation()
+
     func operate(){
+        operationQueue.qualityOfService = .userInitiated
+        operation.queuePriority = .high
         operationQueue.addOperation(operation)
     }
 }
