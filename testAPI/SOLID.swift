@@ -118,18 +118,30 @@ class ProductA1:product1{
 }
 
 //d dependancy inversion
-protocol CarSwitch{
+protocol CEngine {
     func start()
 }
-class CarEngine{
-var name:String
-    init(enginename:String){
-        name = enginename
+
+class CarEngine: CEngine {
+    var name: String
+    
+    init(engineName: String) {
+        name = engineName
+    }
+    
+    func start() {
+        print("Engine \(name) started")
     }
 }
-class car{
-var engine:CarEngine
-    init(myEngine:CarEngine){
-        engine = myEngine
+
+class mCar {
+    var engine: CEngine // Use the protocol as the type
+    
+    init(engine: CEngine) {
+        self.engine = engine
+    }
+    
+    func startCar() {
+        engine.start() // Call start() on the engine object without knowing its concrete type
     }
 }
