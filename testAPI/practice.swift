@@ -140,6 +140,32 @@ class practice:NSObject{
     func handleObservation(){
         firstOperation.addObserver(self, forKeyPath: "isFinished", options: .new, context: nil)
     }
+//    Advanced Topics:
+//    Explore the new actor model introduced in Swift 5.5 and create actors to manage shared state.
+    actor myAcount{
+        var balance : Int = 0
+        func addToBalance(amount:Int)async{
+            balance+=amount
+        }
+        func removeFromBalance(amount:Int)async{
+            balance-=amount
+        }
+    }
+    var newAcount = myAcount()
+  
+    func add()async{
+       await newAcount.addToBalance(amount: 30)
+    }
+    
+    
+//    Use dispatch sources to receive notifications from system events like file changes or timer expirations.
+    
+    
+    
+    
+//    Experiment with dispatch I/O for efficient file and socket operations.
+//    Practice implementing thread-safe data structures like concurrent queues and locks.
+//    Explore memory management techniques in multithreading, including autorelease pools and weak references.
     
     
 }
