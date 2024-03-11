@@ -6,7 +6,7 @@
 //
 
 import Foundation
-class practice{
+class practice:NSObject{
     //task
     let myTask = {
         print("i am your task")
@@ -56,6 +56,7 @@ class practice{
     
 //    Dispatching Tasks Asynchronously and Synchronously:
     func testQueue(){
+        let myDispatchGroup = DispatchGroup()
         serialQueue.sync(execute: myTask)
         concurenQueue.async(group: myDispatchGroup, execute: myWorkItem)
         
@@ -90,6 +91,55 @@ class practice{
         }
     }
     
-    
+//    Operations and OperationQueue:
+//
+//    Creating custom operations
+    class MyOperation:Operation{
+        override func main(){
+            if  !isCancelled{
+                //fetch data
+            } else {return }
+          
+        }
+      
+    }
+    let firstOperation = MyOperation()
+  
+    let secOperation = MyOperation()
+    func handelDependancy(){
+        //    Priorities and quality-of-service (QoS)
+        firstOperation.queuePriority = .high
+        firstOperation.qualityOfService = .userInteractive
+        //    Dependency management between operations
+        secOperation.addDependency(firstOperation)
 
+    }
+    // serial and concurrent operations
+    func handleOperation(){
+        let myQueue = OperationQueue() //By default, an OperationQueue is concurrent
+        myQueue.maxConcurrentOperationCount = 1
+        myQueue.addOperation {
+            //do task
+        }
+    }
+
+
+    
+//    Asynchronous Operations
+    class MyAsyncOperation:Operation{
+        override func main(){
+            DispatchQueue.global().async{
+                // Perform asynchronous task
+
+            }
+        }
+      
+    }
+    
+    //    Operation Observers
+    func handleObservation(){
+        firstOperation.addObserver(self, forKeyPath: "isFinished", options: .new, context: nil)
+    }
+    
+    
 }
