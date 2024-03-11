@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F08EDB62B9F04190052A288 /* practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F08EDB52B9F04190052A288 /* practice.swift */; };
 		7FBEBD782B91CC39005B827C /* testAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEBD772B91CC39005B827C /* testAPIApp.swift */; };
 		7FBEBD7C2B91CC3E005B827C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBEBD7B2B91CC3E005B827C /* Assets.xcassets */; };
 		7FBEBD7F2B91CC3E005B827C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBEBD7E2B91CC3E005B827C /* Preview Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F08EDB52B9F04190052A288 /* practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice.swift; sourceTree = "<group>"; };
 		7FBEBD742B91CC39005B827C /* testAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBEBD772B91CC39005B827C /* testAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAPIApp.swift; sourceTree = "<group>"; };
 		7FBEBD7B2B91CC3E005B827C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				7FBEBE0E2B9720DF005B827C /* dispatchTest.swift */,
 				7FBEBE102B99DED0005B827C /* SOLID.swift */,
 				7FBEBE122B99E684005B827C /* testSring.swift */,
+				7F08EDB52B9F04190052A288 /* practice.swift */,
 			);
 			path = testAPI;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				7FBEBE0F2B9720DF005B827C /* dispatchTest.swift in Sources */,
 				7FBEBDAF2B91DA8D005B827C /* DataManger.swift in Sources */,
 				7FBEBDB92B91F111005B827C /* OperationTest.swift in Sources */,
+				7F08EDB62B9F04190052A288 /* practice.swift in Sources */,
 				7FBEBE132B99E684005B827C /* testSring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
